@@ -1,0 +1,54 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos Timer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1 id="header">HISTORY REBORN EVENTOS</h1>
+
+  <div class="events">
+    <div class="event-category">
+      <label>
+        <input type="checkbox" id="historyStage"> History Stage
+      </label>
+    </div>
+    <div class="event-category">
+      <label>
+        <input type="checkbox" id="worldBoss"> World Boss
+      </label>
+    </div>
+    <div class="event-category">
+      <label>
+        <input type="checkbox" id="upEvent"> Quinta do UP
+      </label>
+    </div>
+  </div>
+
+  <button id="saveButton">Salvar</button>
+  
+  <div class="countdown">
+    <p id="countdownTimer">ESCOLHA QUAL EVENTO...</p>
+  </div>
+
+  <div class="volume-control">
+    <label for="volumeRange">Volume da Notificação:</label>
+    <input type="range" id="volumeRange" min="0" max="1" step="0.1" value="1">
+  </div>
+
+  <div class="socials">
+    <h2>Redes Sociais</h2>
+    <div class="social-links">
+      <a href="https://discord.gg/B2N4yAVgXz" target="_blank">Discord</a>
+      <a href="https://www.youtube.com/channel/UCxXSjPaFWVSZBF_Ixg5KmIw" target="_blank">YouTube</a>
+    </div>
+  </div>
+
+  <div class="credits">
+    <p>&copy; Matias Jr e Freezing</p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

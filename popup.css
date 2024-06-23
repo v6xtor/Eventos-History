@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  width: 300px;
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(90deg, rgb(26, 22, 21) 0%, rgb(218, 38, 18) 50%, rgb(31, 16, 15) 100%);
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+  color: #e74c3c;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.events {
+  margin-bottom: 20px;
+}
+
+.event-category {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.event-category label {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.countdown {
+  margin-top: 20px;
+}
+
+.countdown p {
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.volume-control {
+  margin-top: 20px;
+}
+
+#volumeRange {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#saveButton {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#saveButton:hover {
+  background-color: #c0392b;
+}
+
+.socials {
+  margin-top: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #c0392b;
+}
+
+.credits {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+}
